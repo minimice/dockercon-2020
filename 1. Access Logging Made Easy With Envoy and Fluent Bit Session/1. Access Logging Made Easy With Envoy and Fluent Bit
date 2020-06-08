@@ -1,0 +1,20 @@
+Access Logging Made Easy With Envoy and Fluent Bit
+
+Envoy
+- mesh, deploys as side-car proxy
+- decouples install and upgrade
+- enables consistent config regardless of platform
+AWS app mesh uses envoy proxy
+- common need: manage inter-service traffic
+- generate uniform logs, metrics and traces
+- minimise impact on application code
+- shift traffic between deployments
+- decouple service teams
+- application level networking
+- works across compute services (ecs, fargate, eks, ec2, kubernetes on ec2)
+
+Service team A -> Service team B
+
+Fluent bit
+- multi-platform log processor and forwarder
+- lightweight and written in C
